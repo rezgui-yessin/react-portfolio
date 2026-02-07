@@ -9,14 +9,17 @@ import {
   FaNodeJs,
   FaPython,
   FaDatabase,
+  FaDocker,
+  FaAws,
 } from "react-icons/fa";
 import {
   SiSpringboot,
-  SiDjango,
   SiPostgresql,
   SiMongodb,
   SiTailwindcss,
+  SiTypescript,
 } from "react-icons/si";
+import { VscAzure } from "react-icons/vsc";
 
 const Skills = () => {
   const ref = useRef(null);
@@ -28,6 +31,7 @@ const Skills = () => {
       skills: [
         { name: "React", icon: <FaReact />, level: 90, color: "text-cyan-400" },
         { name: "Angular", icon: <FaAngular />, level: 80, color: "text-red-500" },
+        { name: "TypeScript", icon: <SiTypescript />, level: 85, color: "text-blue-500" },
         { name: "HTML5", icon: <FaHtml5 />, level: 95, color: "text-orange-500" },
         { name: "CSS3", icon: <FaCss3Alt />, level: 90, color: "text-blue-400" },
         { name: "JavaScript", icon: <FaJs />, level: 85, color: "text-yellow-400" },
@@ -39,7 +43,6 @@ const Skills = () => {
       skills: [
         { name: "Spring Boot", icon: <SiSpringboot />, level: 85, color: "text-green-500" },
         { name: "Node.js", icon: <FaNodeJs />, level: 80, color: "text-green-400" },
-        { name: "Django", icon: <SiDjango />, level: 75, color: "text-green-600" },
         { name: "Python", icon: <FaPython />, level: 82, color: "text-blue-400" },
       ],
     },
@@ -49,6 +52,14 @@ const Skills = () => {
         { name: "PostgreSQL", icon: <SiPostgresql />, level: 85, color: "text-blue-500" },
         { name: "MongoDB", icon: <SiMongodb />, level: 80, color: "text-green-500" },
         { name: "SQL", icon: <FaDatabase />, level: 88, color: "text-orange-400" },
+      ],
+    },
+    {
+      title: "DevOps & Cloud",
+      skills: [
+        { name: "Docker", icon: <FaDocker />, level: 80, color: "text-blue-400" },
+        { name: "Azure", icon: <VscAzure />, level: 75, color: "text-blue-500" },
+        { name: "AWS", icon: <FaAws />, level: 75, color: "text-orange-500" },
       ],
     },
   ];

@@ -28,11 +28,11 @@ const Projects = () => {
       gradient: "from-green-500 to-teal-500",
     },
     {
-      title: "Real Estate Management",
+      title: "Hospital Management",
       description:
-        "Property listing and management system with advanced search, filtering, and booking features.",
-      image: "🏢",
-      technologies: ["Flutter", "Firebase", "Google Maps API"],
+        "Comprehensive system for managing patient records, doctor appointments, and hospital resources efficiently.",
+      image: "🏥",
+      technologies: ["Spring Boot", "Angular", "MySQL"],
       github: "https://github.com",
       demo: "https://demo.com",
       gradient: "from-orange-500 to-red-500",
@@ -167,6 +167,18 @@ const Projects = () => {
               </div>
             </motion.div>
           ))}
+        </div>
+
+        <div className="flex justify-center mt-12">
+          <a
+            href="https://github.com/rezgui-yessin"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="px-8 py-3 rounded-full bg-gradient-to-r from-primary to-accent text-white font-bold hover:shadow-lg hover:shadow-primary/25 transition-all transform hover:-translate-y-1 flex items-center gap-2"
+          >
+            <FaGithub className="text-xl" />
+            View Full Projects
+          </a>
         </div>
       </motion.div>
     </section>

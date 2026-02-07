@@ -18,20 +18,20 @@ const Experience = () => {
     },
     {
       type: "experience",
-      title: "Full Stack Developer Intern",
-      organization: "Tech Company XYZ",
-      period: "Summer 2025",
+      title: "Full-stack Developer Internship",
+      organization: "sfectoria",
+      period: "Feb 2024 - Jun 2024",
       description:
-        "Developed and maintained web applications using React and Spring Boot. Collaborated with cross-functional teams to deliver high-quality software solutions.",
+        "Development of a modern e-learning platform using the MERN stack (MongoDB, Express.js, React, Node.js). Implementation of real-time chatrooms with Socket.IO to enable interactive communication between students and instructors.",
       icon: <FaBriefcase />,
     },
     {
       type: "experience",
-      title: "IoT Developer Intern",
-      organization: "Innovation Lab",
-      period: "Summer 2024",
+      title: "Summer Intern",
+      organization: "MasterClass",
+      period: "Jun 2023 - Aug 2023",
       description:
-        "Worked on IoT solutions for smart city applications. Implemented sensor networks and real-time data processing systems.",
+        "Design and development of a full-stack ERP (Enterprise Resource Planning) web application using Angular and Spring Boot to manage core business operations such as employees, sales, inventory, and finance. The system integrates AI-based analytics to provide insights, performance predictions, and intelligent decision support through interactive dashboards.",
       icon: <FaBriefcase />,
     },
     {

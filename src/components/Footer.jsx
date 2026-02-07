@@ -11,7 +11,7 @@ const Footer = () => {
           {/* Brand */}
           <div className="text-center md:text-left">
             <h3 className="text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent mb-2">
-              Yassine
+              Yessin Rezgui
             </h3>
             <p className="text-gray-400 text-sm">
               IoT & Software Engineering Student
@@ -21,7 +21,7 @@ const Footer = () => {
           {/* Social Links */}
           <div className="flex gap-4">
             <a
-              href="https://github.com"
+              href="https://github.com/rezgui-yessin"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 glass rounded-full flex items-center justify-center hover:bg-white/10 hover:text-primary transition-all duration-300 hover:scale-110"
@@ -29,7 +29,7 @@ const Footer = () => {
               <FaGithub />
             </a>
             <a
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/yassine-rezgui/"
               target="_blank"
               rel="noopener noreferrer"
               className="w-10 h-10 glass rounded-full flex items-center justify-center hover:bg-white/10 hover:text-primary transition-all duration-300 hover:scale-110"

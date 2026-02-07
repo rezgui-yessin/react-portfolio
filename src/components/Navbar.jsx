@@ -41,7 +41,7 @@ const Navbar = () => {
       >
         <div className="container mx-auto px-6 flex justify-between items-center">
           <div className="text-2xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent cursor-pointer">
-            Yassine
+            Yessin Rezgui
           </div>
 
           {/* Desktop Menu */}

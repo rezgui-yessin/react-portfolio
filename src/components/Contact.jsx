@@ -123,7 +123,7 @@ const Contact = () => {
               <p className="text-gray-400 mb-4">Follow me on:</p>
               <div className="flex gap-4">
                 <a
-                  href="https://github.com"
+                  href="https://github.com/rezgui-yessin"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 glass rounded-full flex items-center justify-center text-xl hover:bg-white/10 hover:text-primary transition-all duration-300 hover:scale-110"
@@ -131,7 +131,7 @@ const Contact = () => {
                   <FaGithub />
                 </a>
                 <a
-                  href="https://linkedin.com"
+                  href="https://www.linkedin.com/in/yassine-rezgui/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 glass rounded-full flex items-center justify-center text-xl hover:bg-white/10 hover:text-primary transition-all duration-300 hover:scale-110"

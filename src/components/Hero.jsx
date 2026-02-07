@@ -51,7 +51,7 @@ const Hero = () => {
           className="text-5xl md:text-7xl font-bold mb-4"
         >
           <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            Yassine
+            Yessin Rezgui
           </span>
         </motion.h1>
 
@@ -92,7 +92,7 @@ const Hero = () => {
           className="flex justify-center gap-6 text-2xl"
         >
           <a
-            href="https://github.com"
+            href="https://github.com/rezgui-yessin"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-primary transition-colors transform hover:scale-110 duration-300"
@@ -100,7 +100,7 @@ const Hero = () => {
             <FaGithub />
           </a>
           <a
-            href="https://linkedin.com"
+            href="https://www.linkedin.com/in/yassine-rezgui/"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-400 hover:text-primary transition-colors transform hover:scale-110 duration-300"
