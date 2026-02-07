@@ -59,16 +59,15 @@ const Hero = () => {
           variants={itemVariants}
           className="text-2xl md:text-4xl text-gray-300 mb-6"
         >
-          IoT & Software Engineering Student
+          Java & Angular Full Stack Developer
         </motion.h2>
 
         <motion.p
           variants={itemVariants}
           className="text-gray-400 text-lg max-w-2xl mx-auto mb-8"
         >
-          Passionate about building innovative solutions that bridge hardware and
-          software. Specializing in full-stack development, IoT systems, and
-          modern web technologies.
+          Specializing in building scalable enterprise applications with Java and
+          Angular, and deploying robust cloud solutions using Docker and Azure.
         </motion.p>
 
         <motion.div

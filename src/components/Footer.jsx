@@ -14,7 +14,7 @@ const Footer = () => {
               Yessin Rezgui
             </h3>
             <p className="text-gray-400 text-sm">
-              IoT & Software Engineering Student
+              Java & Angular Full Stack Developer
             </p>
           </div>
 

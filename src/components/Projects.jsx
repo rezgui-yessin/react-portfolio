@@ -18,14 +18,14 @@ const Projects = () => {
       gradient: "from-blue-500 to-purple-500",
     },
     {
-      title: "IoT Smart Home System",
+      title: "Food Delivery App",
       description:
-        "Integrated IoT solution for home automation with real-time sensor monitoring and remote control capabilities.",
-      image: "🏠",
-      technologies: ["React", "Node.js", "MongoDB", "MQTT"],
+        "Full-featured food ordering platform with real-time order tracking, restaurant management, and secure payment integration.",
+      image: "🍔",
+      technologies: ["MongoDB", "Express.js", "React", "Node.js"],
       github: "https://github.com",
       demo: "https://demo.com",
-      gradient: "from-green-500 to-teal-500",
+      gradient: "from-yellow-500 to-orange-500",
     },
     {
       title: "Hospital Management",
@@ -58,14 +58,14 @@ const Projects = () => {
       gradient: "from-cyan-500 to-blue-500",
     },
     {
-      title: "Blog Platform",
+      title: "Tours & Travels Booking",
       description:
-        "Modern blogging platform with markdown support, comments, and user authentication.",
-      image: "📝",
-      technologies: ["Next.js", "Node.js", "MongoDB"],
+        "Comprehensive booking platform for travel packages, featuring destination management, secure payments, and user itinerary planning.",
+      image: "✈️",
+      technologies: ["Angular", "Spring Boot", "MySQL", "JWT"],
       github: "https://github.com",
       demo: "https://demo.com",
-      gradient: "from-indigo-500 to-purple-500",
+      gradient: "from-sky-500 to-indigo-500",
     },
   ];
 

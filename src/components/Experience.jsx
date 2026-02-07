@@ -9,11 +9,11 @@ const Experience = () => {
   const timeline = [
     {
       type: "education",
-      title: "Bachelor's in IoT & Software Engineering",
-      organization: "University Name",
-      period: "2022 - Present",
+      title: "Master's Degree",
+      organization: "Università degli Studi di Urbino Carlo Bo",
+      period: "Sep 2025 - Jul 2027",
       description:
-        "Focusing on IoT systems, full-stack development, embedded systems, and modern software architecture. Maintaining excellent academic performance.",
+        "Program focused on Cloud Computing and Artificial Intelligence (AI), encompassing software engineering, digital innovation, advanced programming, data management, and modern development methodologies.",
       icon: <FaGraduationCap />,
     },
     {
@@ -36,11 +36,11 @@ const Experience = () => {
     },
     {
       type: "education",
-      title: "High School Diploma",
-      organization: "High School Name",
-      period: "2019 - 2022",
+      title: "Bachelor's degree, Computer Science",
+      organization: "Faculté des Sciences Mathématiques, Physiques et Naturelles de Tunis",
+      period: "2021 - Jun 2024",
       description:
-        "Graduated with honors. Focused on mathematics, physics, and computer science.",
+        "Grade: 14,75. Focused on fundamental computer science concepts, algorithms, data structures, and software development.",
       icon: <FaGraduationCap />,
     },
   ];
