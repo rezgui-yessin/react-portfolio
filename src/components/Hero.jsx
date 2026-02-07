@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
 import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Hero = () => {
   const containerVariants = {
@@ -37,82 +38,101 @@ const Hero = () => {
       </div>
 
       <motion.div
-        className="container mx-auto px-6 z-10 text-center"
+        className="container mx-auto px-6 z-10"
         variants={containerVariants}
         initial="hidden"
         animate="visible"
       >
-        <motion.div variants={itemVariants} className="mb-4">
-          <span className="text-accent text-lg font-medium">👋 Hello, I'm</span>
-        </motion.div>
+        <div className="flex flex-col md:flex-row items-center justify-between gap-12">
+          {/* Text Content */}
+          <div className="w-full md:w-1/2 text-left">
+            <motion.div variants={itemVariants} className="mb-4">
+              <span className="text-accent text-lg font-medium">👋 Hello, I'm</span>
+            </motion.div>
 
-        <motion.h1
-          variants={itemVariants}
-          className="text-5xl md:text-7xl font-bold mb-4"
-        >
-          <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
-            Yessin Rezgui
-          </span>
-        </motion.h1>
+            <motion.h1
+              variants={itemVariants}
+              className="text-5xl md:text-7xl font-bold mb-4"
+            >
+              <span className="bg-gradient-to-r from-primary via-secondary to-accent bg-clip-text text-transparent">
+                Yessin Rezgui
+              </span>
+            </motion.h1>
 
-        <motion.h2
-          variants={itemVariants}
-          className="text-2xl md:text-4xl text-gray-300 mb-6"
-        >
-          Java & Angular Full Stack Developer
-        </motion.h2>
+            <motion.h2
+              variants={itemVariants}
+              className="text-2xl md:text-4xl text-gray-300 mb-6"
+            >
+              Java & Angular Full Stack Developer
+            </motion.h2>
 
-        <motion.p
-          variants={itemVariants}
-          className="text-gray-400 text-lg max-w-2xl mx-auto mb-8"
-        >
-          Specializing in building scalable enterprise applications with Java and
-          Angular, and deploying robust cloud solutions using Docker and Azure.
-        </motion.p>
+            <motion.p
+              variants={itemVariants}
+              className="text-gray-400 text-lg mb-8"
+            >
+              Specializing in building scalable enterprise applications with Java
+              and Angular, and deploying robust cloud solutions using Docker and
+              Azure.
+            </motion.p>
 
-        <motion.div
-          variants={itemVariants}
-          className="flex flex-wrap justify-center gap-4 mb-8"
-        >
-          <Link to="projects" smooth={true} duration={500} offset={-70}>
-            <button className="px-8 py-3 bg-gradient-to-r from-primary to-secondary rounded-full text-white font-medium hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 transform hover:-translate-y-1">
-              View Projects
-            </button>
-          </Link>
-          <Link to="contact" smooth={true} duration={500} offset={-70}>
-            <button className="px-8 py-3 glass rounded-full text-white font-medium hover:bg-white/10 transition-all duration-300 transform hover:-translate-y-1">
-              Contact Me
-            </button>
-          </Link>
-        </motion.div>
+            <motion.div
+              variants={itemVariants}
+              className="flex flex-wrap gap-4 mb-8"
+            >
+              <Link to="projects" smooth={true} duration={500} offset={-70}>
+                <button className="px-8 py-3 bg-gradient-to-r from-primary to-secondary rounded-full text-white font-medium hover:shadow-lg hover:shadow-primary/50 transition-all duration-300 transform hover:-translate-y-1">
+                  View Projects
+                </button>
+              </Link>
+              <Link to="contact" smooth={true} duration={500} offset={-70}>
+                <button className="px-8 py-3 glass rounded-full text-white font-medium hover:bg-white/10 transition-all duration-300 transform hover:-translate-y-1">
+                  Contact Me
+                </button>
+              </Link>
+            </motion.div>
 
-        <motion.div
-          variants={itemVariants}
-          className="flex justify-center gap-6 text-2xl"
-        >
-          <a
-            href="https://github.com/rezgui-yessin"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-primary transition-colors transform hover:scale-110 duration-300"
+            <motion.div
+              variants={itemVariants}
+              className="flex gap-6 text-2xl"
+            >
+              <a
+                href="https://github.com/rezgui-yessin"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-primary transition-colors transform hover:scale-110 duration-300"
+              >
+                <FaGithub />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/yassine-rezgui/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-gray-400 hover:text-primary transition-colors transform hover:scale-110 duration-300"
+              >
+                <FaLinkedin />
+              </a>
+              <a
+                href="mailto:your.email@example.com"
+                className="text-gray-400 hover:text-primary transition-colors transform hover:scale-110 duration-300"
+              >
+                <FaEnvelope />
+              </a>
+            </motion.div>
+          </div>
+
+          {/* Lottie Animation */}
+          <motion.div
+            className="w-full md:w-1/2 flex justify-center"
+            variants={itemVariants}
           >
-            <FaGithub />
-          </a>
-          <a
-            href="https://www.linkedin.com/in/yassine-rezgui/"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-400 hover:text-primary transition-colors transform hover:scale-110 duration-300"
-          >
-            <FaLinkedin />
-          </a>
-          <a
-            href="mailto:your.email@example.com"
-            className="text-gray-400 hover:text-primary transition-colors transform hover:scale-110 duration-300"
-          >
-            <FaEnvelope />
-          </a>
-        </motion.div>
+            <DotLottieReact
+              src="/lottie/Developer.lottie"
+              loop
+              autoplay
+              style={{ height: "400px", width: "400px" }}
+            />
+          </motion.div>
+        </div>
 
         {/* Scroll Indicator */}
         <motion.div
