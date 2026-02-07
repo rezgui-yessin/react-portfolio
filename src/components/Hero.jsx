@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { Link } from "react-scroll";
-import { FaGithub, FaLinkedin, FaEnvelope } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaEnvelope, FaDownload } from "react-icons/fa";
 import { DotLottieReact } from "@lottiefiles/dotlottie-react";
 
 const Hero = () => {
@@ -89,6 +89,13 @@ const Hero = () => {
                   Contact Me
                 </button>
               </Link>
+              <a
+                href="/resume.pdf"
+                download="Yessin_Rezgui_Resume.pdf"
+                className="px-8 py-3 glass rounded-full text-white font-medium hover:bg-white/10 transition-all duration-300 transform hover:-translate-y-1 flex items-center gap-2"
+              >
+                <FaDownload /> Download CV
+              </a>
             </motion.div>
 
             <motion.div
@@ -112,7 +119,7 @@ const Hero = () => {
                 <FaLinkedin />
               </a>
               <a
-                href="mailto:your.email@example.com"
+                href="mailto:yassine.rezgui@etudiant-fst.utm.tn"
                 className="text-gray-400 hover:text-primary transition-colors transform hover:scale-110 duration-300"
               >
                 <FaEnvelope />

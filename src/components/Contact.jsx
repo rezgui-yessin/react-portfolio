@@ -87,7 +87,9 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Email</p>
-                  <p className="text-white">your.email@example.com</p>
+                  <a href="mailto:yassine.rezgui@etudiant-fst.utm.tn" className="text-white hover:text-primary transition-colors">
+                    yassine.rezgui@etudiant-fst.utm.tn
+                  </a>
                 </div>
               </motion.div>
 
@@ -99,8 +101,8 @@ const Contact = () => {
                   <FaPhone />
                 </div>
                 <div>
-                  <p className="text-sm text-gray-400">Phone</p>
-                  <p className="text-white">+123 456 7890</p>
+                  <p className="text-sm text-gray-400">WhatsApp / Phone</p>
+                  <p className="text-white">+216 54 057 196</p>
                 </div>
               </motion.div>
 
@@ -113,7 +115,7 @@ const Contact = () => {
                 </div>
                 <div>
                   <p className="text-sm text-gray-400">Location</p>
-                  <p className="text-white">City, Country</p>
+                  <p className="text-white">Urbino, Italy</p>
                 </div>
               </motion.div>
             </div>
@@ -139,7 +141,7 @@ const Contact = () => {
                   <FaLinkedin />
                 </a>
                 <a
-                  href="mailto:your.email@example.com"
+                  href="mailto:yassine.rezgui@etudiant-fst.utm.tn"
                   className="w-12 h-12 glass rounded-full flex items-center justify-center text-xl hover:bg-white/10 hover:text-primary transition-all duration-300 hover:scale-110"
                 >
                   <FaEnvelope />

@@ -37,7 +37,7 @@ const Footer = () => {
               <FaLinkedin />
             </a>
             <a
-              href="mailto:your.email@example.com"
+              href="mailto:yassine.rezgui@etudiant-fst.utm.tn"
               className="w-10 h-10 glass rounded-full flex items-center justify-center hover:bg-white/10 hover:text-primary transition-all duration-300 hover:scale-110"
             >
               <FaEnvelope />
